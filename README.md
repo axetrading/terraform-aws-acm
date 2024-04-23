@@ -6,8 +6,8 @@
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws.acm"></a> [aws.acm](#provider\_aws.acm) | 5.46.0 |
-| <a name="provider_aws.validator"></a> [aws.validator](#provider\_aws.validator) | 5.46.0 |
+| <a name="provider_aws.acm"></a> [aws.acm](#provider\_aws.acm) | n/a |
+| <a name="provider_aws.validator"></a> [aws.validator](#provider\_aws.validator) | n/a |
 
 ## Resources
 
