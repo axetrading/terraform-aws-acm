@@ -1,0 +1,16 @@
+#!/bin/bash
+
+set -eo pipefail
+
+scripts/format.sh
+scripts/generate-readme.sh
+
+echo "Running Terraform Init..."
+terraform init -backend=false
+
+echo "Running Terraform Validate..."
+terraform validate
+
+# Cleanup after validation
+rm -rf .terraform
+rm -f .terraform.lock.hcl
